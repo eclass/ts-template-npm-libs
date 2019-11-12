@@ -60,6 +60,7 @@
     "extends": "@eclass"
   },
   "eslintIgnore": [
+    "dist",
     "coverage"
   ],
   "husky": {
