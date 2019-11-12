@@ -2,14 +2,19 @@
   "name": "@eclass/template-npm-libs",
   "version": "0.0.1",
   "description": "Plantilla base para librerías npm de eclass",
-  "main": "src",
+  "main": "dist/index.js",
+  "type": "commonjs",
+  "types": "./dist/index.d.ts",
   "scripts": {
+    "build": "tsc",
+    "format": "prettier-standard '{src,test}/**/*.js'",
     "lint": "eslint . --fix",
-    "format": "prettier-standard '{src,test}/**/*.js'"
+    "test": "cd test && npm run test",
+    "watch": "tsc --watch"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/eclass/template-npm-libs"
+    "url": "https://github.com/eclass/ts-template-npm-libs"
   },
   "keywords": [
     "eclass"
@@ -17,14 +22,20 @@
   "engines": {
     "node": ">=10.16.3"
   },
-  "author": "Leonardo Gatica <lgatica@protonmail.com> (https://about.me/lgatica)",
+  "author": "Ender Bonnet <enbonnet@pm.me> (https://enbonnet.me/)",
+  "contributors": [
+    "Leonardo Gatica <lgatica@protonmail.com> (https://about.me/lgatica)"
+  ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/eclass/template-npm-libs/issues"
+    "url": "https://github.com/eclass/ts-template-npm-libs/issues"
   },
-  "homepage": "https://github.com/eclass/template-npm-libs#readme",
+  "homepage": "https://github.com/eclass/ts-template-npm-libs#readme",
   "dependencies": {},
   "devDependencies": {
+    "@types/node": "^12.12.7",
+    "ts-node": "^8.5.0",
+    "typescript": "^3.7.2",
     "@commitlint/cli": "8.2.0",
     "@commitlint/config-conventional": "8.2.0",
     "@eclass/eslint-config": "1.1.3",
