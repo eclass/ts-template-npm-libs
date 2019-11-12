@@ -33,9 +33,9 @@
   "homepage": "https://github.com/eclass/ts-template-npm-libs#readme",
   "dependencies": {},
   "devDependencies": {
-    "@types/node": "^12.12.7",
-    "ts-node": "^8.5.0",
-    "typescript": "^3.7.2",
+    "@types/node": "12.12.7",
+    "ts-node": "8.5.0",
+    "typescript": "3.7.2",
     "@commitlint/cli": "8.2.0",
     "@commitlint/config-conventional": "8.2.0",
     "@eclass/eslint-config": "1.1.3",
