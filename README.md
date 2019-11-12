@@ -1,4 +1,4 @@
-# @eclass/template-npm-libs
+# @eclass/ts-template-npm-libs
 
 [![npm](https://img.shields.io/npm/v/@eclass/template-npm-libs.svg)](https://www.npmjs.com/package/@eclass/template-npm-libs)
 [![Build Status](https://travis-ci.org/eclass/template-npm-libs.svg?branch=master)](https://travis-ci.org/eclass/template-npm-libs)
