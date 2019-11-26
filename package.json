@@ -36,7 +36,7 @@
   "devDependencies": {
     "@commitlint/cli": "8.2.0",
     "@commitlint/config-conventional": "8.2.0",
-    "@eclass/eslint-config": "1.1.3",
+    "@eclass/eslint-config": "1.2.1",
     "@semantic-release/changelog": "3.0.6",
     "@semantic-release/git": "7.0.18",
     "@types/node": "12.12.11",
@@ -46,7 +46,6 @@
     "eslint-plugin-array-func": "3.1.3",
     "eslint-plugin-eslint-comments": "3.1.2",
     "eslint-plugin-import": "2.18.2",
-    "eslint-plugin-jsdoc": "18.1.4",
     "eslint-plugin-node": "10.0.0",
     "eslint-plugin-promise": "4.2.1",
     "eslint-plugin-security": "1.4.0",
@@ -61,10 +60,8 @@
   },
   "eslintConfig": {
     "extends": [
-      "@eclass",
-      "plugin:@typescript-eslint/recommended"
-    ],
-    "parser": "@typescript-eslint/parser"
+      "@eclass/eslint-config/typescript"
+    ]
   },
   "eslintIgnore": [
     "coverage",
