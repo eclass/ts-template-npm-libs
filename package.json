@@ -51,10 +51,10 @@
     "eslint-plugin-security": "1.4.0",
     "eslint-plugin-sonarjs": "0.5.0",
     "eslint-plugin-standard": "4.0.1",
-    "husky": "4.2.5",
+    "husky": "4.3.7",
     "lint-staged": "10.2.7",
     "prettier-standard": "16.3.0",
-    "semantic-release": "17.0.8",
+    "semantic-release": "17.3.1",
     "ts-node": "8.10.2",
     "typescript": "3.9.3"
   },
