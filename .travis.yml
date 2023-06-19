@@ -3,7 +3,7 @@ cache:
   directories:
     - ~/.npm
 node_js:
-  - 'v12.18.3'
+  - '12.22.12'
   - 'v14.7.0'
 notifications:
   email: false
